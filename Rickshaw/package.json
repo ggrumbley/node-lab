@@ -4,11 +4,18 @@
   "main": "index.js",
   "author": "Gary",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:dev": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
     "mocha": "^3.5.3",
-    "mongoose": "^4.11.11",
     "supertest": "^3.0.0"
   }
 }
