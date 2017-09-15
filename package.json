@@ -1,0 +1,14 @@
+{
+  "name": "rickshaw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gary",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.11",
+    "supertest": "^3.0.0"
+  }
+}
