@@ -7,7 +7,7 @@ import { Db, Server } from 'mongodb';
 import reducers from './reducers';
 import Routes from './router';
 import mongoose from 'mongoose';
-import './seeds';
+// import './seeds';
 
 mongoose.Promise = Promise;
 
