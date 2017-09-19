@@ -6,11 +6,9 @@ const AlbumSchema = new Schema({
   title: String,
   date: Date,
   copiesSold: Number,
-  numberTrack: Number,
+  numberTracks: Number,
   image: String,
   revenue: Number
 });
 
-const Album = mongoose.model('album', AlbumSchema);
-
-module.exports = Album;
+module.exports = AlbumSchema;
